@@ -1,0 +1,9 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\LogicTestWarmup.Tests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\LogicTestWarmup.Tests.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\LogicTestWarmups.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\nunit.framework.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\LogicTestWarmups.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\bin\Debug\nunit.framework.xml
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\obj\Debug\LogicTestWarmup.Tests.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\obj\Debug\LogicTestWarmup.Tests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmup.Tests\obj\Debug\LogicTestWarmup.Tests.pdb

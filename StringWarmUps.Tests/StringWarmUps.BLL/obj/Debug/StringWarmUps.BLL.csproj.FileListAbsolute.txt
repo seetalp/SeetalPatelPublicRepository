@@ -1,0 +1,5 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\StringWarmUps.Tests\StringWarmUps.BLL\bin\Debug\StringWarmUps.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\StringWarmUps.Tests\StringWarmUps.BLL\bin\Debug\StringWarmUps.BLL.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\StringWarmUps.Tests\StringWarmUps.BLL\obj\Debug\StringWarmUps.BLL.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\StringWarmUps.Tests\StringWarmUps.BLL\obj\Debug\StringWarmUps.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\StringWarmUps.Tests\StringWarmUps.BLL\obj\Debug\StringWarmUps.BLL.pdb

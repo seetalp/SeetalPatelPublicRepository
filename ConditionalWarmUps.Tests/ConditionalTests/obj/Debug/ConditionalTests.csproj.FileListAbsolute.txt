@@ -1,0 +1,9 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\ConditionalTests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\ConditionalTests.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\ConditionalWarmUps.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\nunit.framework.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\ConditionalWarmUps.BLL.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\bin\Debug\nunit.framework.xml
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\obj\Debug\ConditionalTests.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\obj\Debug\ConditionalTests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalTests\obj\Debug\ConditionalTests.pdb

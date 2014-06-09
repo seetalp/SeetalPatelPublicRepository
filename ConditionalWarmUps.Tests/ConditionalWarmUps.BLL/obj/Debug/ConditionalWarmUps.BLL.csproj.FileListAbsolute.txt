@@ -1,0 +1,5 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalWarmUps.BLL\bin\Debug\ConditionalWarmUps.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalWarmUps.BLL\bin\Debug\ConditionalWarmUps.BLL.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalWarmUps.BLL\obj\Debug\ConditionalWarmUps.BLL.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalWarmUps.BLL\obj\Debug\ConditionalWarmUps.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\ConditionalWarmUps.Tests\ConditionalWarmUps.BLL\obj\Debug\ConditionalWarmUps.BLL.pdb

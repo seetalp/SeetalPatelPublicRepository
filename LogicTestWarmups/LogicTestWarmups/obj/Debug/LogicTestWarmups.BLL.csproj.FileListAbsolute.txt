@@ -1,0 +1,5 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmups\bin\Debug\LogicTestWarmups.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmups\bin\Debug\LogicTestWarmups.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmups\obj\Debug\LogicTestWarmups.BLL.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmups\obj\Debug\LogicTestWarmups.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\LogicTestWarmups\LogicTestWarmups\obj\Debug\LogicTestWarmups.pdb

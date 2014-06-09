@@ -1,0 +1,195 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LogicTestWarmups.BLL
+{
+    public class Logic
+    {
+        public bool GoodParty(int cigars, bool isWeekend)
+        {
+            if (cigars < 40)
+            {
+                return false;
+            }
+            else if (cigars >=40 && cigars <=60)
+            {
+                return true;
+            }
+            else if (cigars > 60 && isWeekend)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+                
+        }
+//__________________________________________________________________________________________________________________________________________________________
+
+        public int CanHazTable(int yourStyle, int dateStyle)
+        {
+           
+
+            if (yourStyle < 3 || dateStyle < 3)
+            {
+                int GetTable = 0;
+                return GetTable;
+            }
+            else if (yourStyle > 8 || dateStyle > 8)
+            {
+                int GetTable = 2;
+                return GetTable;
+            }
+            else
+            {
+                int GetTable = 1;
+                return GetTable;
+            }
+        }
+   //_________________________________________________________________________________________________________________________________________________________         
+        public bool PlayOutside(int temp, bool isSummer)
+        {
+
+
+            if (temp >= 60 && temp <=90 )
+            {
+                
+                return true;
+            }
+            else if (temp>=60 && temp <=100 && isSummer)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        } 
+        //_________________________________________________________________________________________________________________________________________________________
+        public int SkipSum(int a, int b)
+
+
+        {
+            int sum = a + b;
+
+            if (sum >= 10 && sum <=19 )
+            {
+                int altSum = 20;
+                return altSum;
+            }
+            else
+            {
+                
+                return sum;
+            }
+        }
+
+        //_________________________________________________________________________________________________________________________________________________________
+        public bool LoveSix (int a, int b)
+
+        {
+            int sum = a + b;
+           
+            if (sum == 6)
+            {
+                return true;
+            }
+            else if ( a -  b == 6 || b - a == 6)
+            {
+                return true;
+            }
+            else if ( a == 6 ||  b == 6)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+        }
+
+        //_________________________________________________________________________________________________________________________________________________________
+        public bool SpecialEleven(int a, bool expected)
+        {
+            if (a < 0)
+            {
+                return false;
+            }
+            else if (a%11==0 || a%11==1)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+            
+        }
+
+        //_________________________________________________________________________________________________________________________________________________________
+        public bool Mod35(int a, bool expected)
+        {
+            if (a < 0)
+            {
+                return false;
+            }
+            else if (a % 3 == 0 && a % 5 == 0)
+            {
+                return false;
+            }
+            else if (a % 3 == 0 || a % 5 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //_________________________________________________________________________________________________________________________________________________________
+        public bool TwoisOne(int a, int b, int c, bool expected)
+        {
+            if (a + b == c)
+            {
+                return true;
+            }
+            else if (b + c == a)
+            {
+                return true;
+            }
+            else if (c + a == b)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //_________________________________________________________________________________________________________________________________________________________
+        public bool InOrderEqual(int a, int b, int c, bool equalOk, bool expected)
+        {
+            if (a <= b && b <= c && equalOk)
+            {
+                return true;
+            }
+            else if (a < b && b < c )
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        }
+}
