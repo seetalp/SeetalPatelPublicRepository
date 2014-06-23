@@ -1,0 +1,109 @@
+﻿@model FamileLMS.UI.Models.Teacher.AddAssignment
+
+@{
+    ViewBag.Title = "Add Assignment";
+}
+
+<h2>@Model.ClassName.</h2>
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Information", "EditClass", "Teacher", new { id = Model.ClassID }, null)</li>
+            <li>@Html.ActionLink("Roster", "ClassRoster", "Teacher", new { id = Model.ClassID }, null)</li>
+            <li>@Html.ActionLink("Gradebook", "Gradebook", "Teacher", new { id = Model.ClassID }, null)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <fieldset>
+            <legend>Add Assignment</legend>
+            @using (Html.BeginForm("AddAssignment", "Teacher",FormMethod.Post, new { role = "form" }))
+            {
+                @Html.HiddenFor(m => m.ClassID)
+
+                @*@Html.Hidden("ClassID",Url.RequestContext.RouteData.Values["id"]) grabs the route id*@
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EntryName, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.EntryName, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EntryName)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EntryType, new { @class = "control-label" })
+                            <div>
+
+                                @Html.DropDownListFor(m => m.EntryType, new List<SelectListItem>()
+                                {
+                                    new SelectListItem(){Text="Homework", Value="Homework"},
+                                    new SelectListItem(){Text="Quiz", Value="Quiz"},
+                                    new SelectListItem(){Text="Test", Value="Test"},
+                                    new SelectListItem(){Text="Other Assignment", Value="Other Assignment"},
+
+                                }, "- select -", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EntryType)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.PossiblePoints, new { @class = "control-label" })
+                            <div>
+                                @Html.EditorFor(m => m.PossiblePoints, new { htmlAttributes = new { @class = "form-control" }, })
+                                @Html.ValidationMessageFor(m => m.PossiblePoints)
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.DueDate, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.DueDate,"{0:d}",new { @class = "form-control datepicker" })
+                                @Html.ValidationMessageFor(m => m.DueDate)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Description, new { @class = "control-label" })
+                            <div>
+                                @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-11 text-right">
+                        @Html.ActionLink("Cancel", "Index", "Teacher", null, new { @class = "btn btn-default" })
+                        <button class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+
+            }
+        </fieldset>
+    </div>
+</div>
+
+@section scripts{
+
+    <script src="~/Scripts/jquery-ui-1.10.4.min.js"></script>
+    <script>
+        $(function() {
+            $('.datepicker').datepicker();
+        });
+    </script>
+}
+
+@section styles{
+
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+}

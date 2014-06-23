@@ -1,0 +1,172 @@
+﻿@model FamileLMS.UI.Models.Teacher.InfoAnalytics
+@{
+    ViewBag.Title = "Edit Class";
+}
+
+<h2>@Model.EditClassModel.ClassName</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Information", "EditClass", "Teacher", new { id = ViewContext.RouteData.Values["id"], Model.EditClassModel.ClassName }, null)</li>
+            <li>@Html.ActionLink("Roster", "ClassRoster", "Teacher", new { id = ViewContext.RouteData.Values["id"], Model.EditClassModel.ClassName }, null)</li>
+            <li>@Html.ActionLink("Gradebook", "Gradebook", "Teacher", new { id = ViewContext.RouteData.Values["id"], Model.EditClassModel.ClassName }, null)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <fieldset>
+            <legend>Class Information</legend>
+            @using (Html.BeginForm("EditClass", "Teacher", FormMethod.Post, new { role = "form" }))
+            {
+                @Html.HiddenFor(m => m.EditClassModel.ClassID)
+                <div class="row">
+                    <div class="col-sm-6">
+                        @Html.AntiForgeryToken()
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.ClassName, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.EditClassModel.ClassName, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.ClassName)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.GradeLevel, new { @class = "control-label" })
+                            <div>
+
+                                @Html.DropDownListFor(m => m.EditClassModel.GradeLevel, new List<SelectListItem>()
+                                {
+                                    new SelectListItem(){Text="1", Value="1"},
+                                    new SelectListItem(){Text="2", Value="2"},
+                                    new SelectListItem(){Text="3", Value="3"},
+                                    new SelectListItem(){Text="4", Value="4"},
+                                    new SelectListItem(){Text="5", Value="5"},
+                                    new SelectListItem(){Text="6", Value="6"},
+                                    new SelectListItem(){Text="7", Value="7"},
+                                    new SelectListItem(){Text="8", Value="8"},
+                                    new SelectListItem(){Text="9", Value="9"},
+                                    new SelectListItem(){Text="10", Value="10"},
+                                    new SelectListItem(){Text="11", Value="11"},
+                                    new SelectListItem(){Text="12", Value="12"},
+                                }, "- select -", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.GradeLevel)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <label>
+                                Archive
+                            </label>
+                            <div class="checkbox">
+                                @Html.CheckBoxFor(m => m.EditClassModel.IsArchived, new { @class = "checkbox" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.Subject, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.EditClassModel.Subject, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.Subject)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.StartDate, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.EditClassModel.StartDate, "0:d", new { @class = "form-control datepicker" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.StartDate)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.EndDate, new { @class = "control-label" })
+                            <div>
+                                @Html.TextBoxFor(m => m.EditClassModel.EndDate,"0:d", new { @class = "form-control datepicker" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.EndDate)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.EditClassModel.Description, new { @class = "control-label" })
+                            <div>
+                                @Html.TextAreaFor(m => m.EditClassModel.Description, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.EditClassModel.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        @Html.ActionLink("Cancel", "Index", "Teacher", null, new { @class = "btn btn-default" })
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </div>
+
+            }
+
+        </fieldset>
+    </div>
+    <div class="col-sm-6">
+        <fieldset>
+            <legend>Analytics</legend>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p><b>Total Students:</b> @Model.StudentCount</p>
+
+                    <p><b>By Grade:</b></p>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <table class="table table-bordered" id="gradeTable">
+                                <tr>
+                                    <td>A</td>
+                                    <td>@Model.GradeCounts.Count(m => m.LetterGrade == "A")</td>
+                                </tr>
+                                <tr>
+                                    <td>B</td>
+                                    <td>@Model.GradeCounts.Count(m => m.LetterGrade == "B")</td>
+                                </tr>
+                                <tr>
+                                    <td>C</td>
+                                    <td>@Model.GradeCounts.Count(m => m.LetterGrade == "C")</td>
+                                </tr>
+                                <tr>
+                                    <td>D</td>
+                                    <td>@Model.GradeCounts.Count(m => m.LetterGrade == "D")</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>@Model.GradeCounts.Count(m => m.LetterGrade == "F")</td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+@section scripts{
+
+    <script src="~/Scripts/jquery-ui-1.10.4.min.js"></script>
+    <script>
+        $(function () {
+            $('.datepicker').datepicker();
+        });
+    </script>
+}
+
+@section styles{
+
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+}

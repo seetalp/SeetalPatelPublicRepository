@@ -1,0 +1,10 @@
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\obj\Debug\FamileLMS.Data.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\FamileLMS.Data.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\FamileLMS.Data.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\Dapper.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\FamileLMS.Models.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\FamileLMS.Models.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\Dapper.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\bin\Debug\Dapper.xml
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\obj\Debug\FamileLMS.Data.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Data\obj\Debug\FamileLMS.Data.pdb

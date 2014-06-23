@@ -1,0 +1,85 @@
+﻿@model FamileLMS.UI.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Create a new account.</h4>
+    <hr />
+    @Html.ValidationSummary()
+    <div class="form-group">
+        @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FirstName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.SuggestedAccountRole, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.SuggestedAccountRole, new List<SelectListItem>
+            {
+                new SelectListItem(){Text = "Student",Value = "Student"},
+                new SelectListItem(){Text="Teacher",Value = "Teacher"},
+                new SelectListItem(){Text = "Parent",Value = "Parent"}
+            }, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.GradeLevel, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.GradeLevel, new List<SelectListItem>
+            {
+                new SelectListItem(){Text = "N/A",Value = ""},
+                new SelectListItem(){Text = "1",Value = "1"},
+                new SelectListItem(){Text="2",Value = "2"},
+                new SelectListItem(){Text = "3",Value = "3"},
+                new SelectListItem(){Text = "4",Value = "4"},
+                new SelectListItem(){Text = "5",Value = "5"},
+                new SelectListItem(){Text = "6",Value = "6"},
+                new SelectListItem(){Text = "7",Value = "7"},
+                new SelectListItem(){Text = "8",Value = "8"},
+                new SelectListItem(){Text = "9",Value = "9"},
+                new SelectListItem(){Text = "10",Value = "10"},
+                new SelectListItem(){Text = "11",Value = "11"},
+                new SelectListItem(){Text = "12",Value = "12"}
+            },new{@class = "form-control"})
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

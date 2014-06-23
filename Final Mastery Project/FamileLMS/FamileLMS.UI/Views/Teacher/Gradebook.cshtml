@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "Gradebook";
+}
+
+
+<h2>@Request.QueryString["ClassName"]</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Information", "EditClass", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName = Request.QueryString["ClassName"] }, null)</li>
+            <li>@Html.ActionLink("Roster", "ClassRoster", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName = Request.QueryString["ClassName"] }, null)</li>
+            <li>@Html.ActionLink("Gradebook", "Gradebook", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName = Request.QueryString["ClassName"] }, null)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Add Assignment", "AddAssignment", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName = Request.QueryString["ClassName"] }, null)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row" ng-app='gradebookModule' ng-controller='DisplayCtrl'>
+    
+
+    <div class="col-sm-12 table-responsive">
+            <table class="table table-striped table-bordered" ng-controller='DisplayCtrl'>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Grade</th>
+                        <th ng-repeat="item in allGrades.AssignmentNames">{{item}}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="student in allGrades.StudentGrades">
+                        <td>{{student.FirstName}}</td>
+                        <td>{{student.LastName}}</td>
+                        <td>{{student.LetterGrade}}</td>
+                        <td ng-repeat="assignment in student.Assignments" ng-controller="EnterGradeCtrl">
+                            <span ng-click="changeMode();" ng-hide="editMode">
+                                <span ng-hide="assignment.PointsScored === null">{{assignment.PercentGrade + '%'}}</span>
+                                <span ng-show="assignment.PointsScored === null" class="glyphicon glyphicon-edit"></span>
+                            </span>
+                            <div ng-show="editMode">
+                                <input type="number" ng-model="assignment.PointsScored" />
+                                / {{assignment.PointsPossible}}
+                                <button type="button" ng-click="changeMode();save(assignment.EntryID,student,assignment.PointsScored)">Save</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
+
+
+@section scripts
+{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script>
+        var classId = '@ViewContext.RouteData.Values["id"]';
+    </script>
+    <script src="~/Scripts/app/gradebookModule.js"></script>
+
+}

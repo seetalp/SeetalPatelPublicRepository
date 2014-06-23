@@ -1,0 +1,30 @@
+﻿@model List<FamileLMS.Models.Views.StudentAndParentGrade>
+@{
+    ViewBag.Title = "Grades";
+}
+
+<h2>Grades</h2>
+@using (Html.BeginForm("ChildClasses", "Parent", FormMethod.Post, new { role = "form" }))
+{
+    @Html.Hidden("UserID", (string)ViewBag.StudentID);
+    <input type="submit" value="Return to classes" />
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-2 assignment-box">
+            <p><strong>@item.EntryName</strong></p>
+            <p>@item.PercentGrade % -- @item.LetterGrade</p>
+        </div>
+    }
+</div>

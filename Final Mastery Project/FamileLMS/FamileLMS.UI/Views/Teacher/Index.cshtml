@@ -1,0 +1,108 @@
+﻿@using FamileLMS.Models.Views
+@using FamileLMS.UI.Models.Teacher
+@model List<FamileLMS.Models.Views.TeacherDashboardItem>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Teacher Dashboard</h2>
+
+<br /><br />
+
+<h3>My Classes</h3>
+<div class="row" ng-app="SummaryModule">
+    <div class="col-sm-12">
+        <fieldset ng-controller="SummaryCtrl">
+            <div class="row">
+                <div class="col-sm-3">
+                    @Html.ActionLink("Add Class", "AddClass", "Teacher", null, new { @class = "btn btn-primary" })
+                </div>
+
+                <div class="col-sm-5">
+
+                </div>
+
+                <div class="col-sm-1">
+                    <button class="btn" ng-class="{'btn-primary': currentSelected}" ng-click="selectCurrent(true)">Current (@Model.Count(c => !c.IsArchived))</button>
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn" ng-class="{'btn-primary': !currentSelected}" ng-click="selectCurrent(false)">Archived(@Model.Count(c => c.IsArchived))</button>
+                </div>
+
+            </div>
+            <br />
+            <table class="table table-hover" ng-show="currentSelected" id="currentBtn">
+                <tbody>
+                    @foreach (var item in Model.Where(m => !m.IsArchived))
+                    {
+                        <tr ng-click="gotoClass('@Url.Action("ClassRoster", "Teacher", new{id = item.ClassID, ClassName = item.ClassName})')">
+                            <td>@item.ClassName</td>
+                            <td>@item.StudentCount students</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+
+            <table class="table table-hover" ng-hide="currentSelected" id="archivedBtn">
+                <tbody>
+                    @foreach (var item in Model.Where(m => m.IsArchived))
+                    {
+
+                        <tr ng-click="gotoClass('@Url.Action("EditClass", "Teacher", new { id = item.ClassID })')">
+                            <td>@item.ClassName</td>
+                            <td>@item.StudentCount students</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            </fieldset>
+    </div>
+</div>
+@section scripts{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script>
+        var summary = angular.module('SummaryModule', []);
+
+        summary.controller('SummaryCtrl', function($scope) {
+            $scope.currentSelected = true;
+
+            $scope.selectCurrent = function(value) {
+                $scope.currentSelected = value;
+            };
+
+            $scope.gotoClass = function(url) {
+                window.location = url;
+            };
+        });
+    </script>
+
+    
+}
+    
+
+    @*<script>
+        $(function () {
+            $('#currentTable').show();
+            $('#archivedTable').hide();
+
+            $('#currentBtn').click(function () {
+                $('#currentTable').show();
+                $('#archivedTable').hide();
+            });
+            $('#archivedBtn').click(function () {
+                $('#currentTable').hide();
+                $('#archivedTable').show();
+            });
+
+        });
+    </script>*@
+
+
+
+@*<div class="col-sm-3 col-sm-offset-6">
+        <p>
+            <span id="currentBtn">Current (@Model.Count(m => !m.IsArchived))</span> -
+            <span id="archivedBtn">Archived (@Model.Count(m => m.IsArchived))</span>
+        </p>
+    </div>*@

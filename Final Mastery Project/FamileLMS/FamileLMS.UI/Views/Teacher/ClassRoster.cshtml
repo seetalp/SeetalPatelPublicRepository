@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Class Roster";
+}
+
+
+
+<h2>@Request.QueryString["ClassName"]</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Information", "EditClass", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName=Request.QueryString["ClassName"]}, null)</li>
+            <li>@Html.ActionLink("Roster", "ClassRoster", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName=Request.QueryString["ClassName"]}, null)</li>
+            <li>@Html.ActionLink("Gradebook", "Gradebook", "Teacher", new { id = ViewContext.RouteData.Values["id"], ClassName=Request.QueryString["ClassName"]}, null)</li>
+        </ul>
+    </div>
+</div>
+<div class="row" ng-app="rosterSection" ng-controller="rosterCtrl">
+    <div id="leftColumn" class="col-sm-6">
+        <h3> Roster </h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="student in studentRoster">
+                    <td>{{student.FirstName}}</td>
+                    <td>{{student.LastName}}</td>
+                    <td>{{student.UserName}}</td>
+                    <td>
+                        <i class="glyphicon glyphicon-trash" ng-click="deleteStudent(student.ClassID, student.StudentID)"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="rightColumn" class="col-sm-6">
+        <h3>Add Student</h3>
+        <fieldset class="searchStudent">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" id="LastName" placeholder="Enter last name" ng-model="searchRequest.LastName">
+                        </div>
+                        <div class="form-group">
+                            <label>Grade Level</label>
+                            <select id="GradeLevel" ng-model="searchRequest.GradeLevel">
+                                <option value="">-select-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-default" ng-click="search()">Search</button>
+                    </form>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Results</h4>
+                    <hr />
+                    <table class="table table-striped" id="searchResultsBox">
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Grade Level</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="result in searchResults">
+                                <td>{{result.FirstName}}</td>
+                                <td>{{result.LastName}}</td>
+                                <td>{{result.GradeLevel}}</td>
+                                <td>
+                                    <i class="glyphicon glyphicon-plus" ng-click="addStudent(result.StudentID)"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/toastr.js"></script>
+    <script>
+        var classId = '@ViewContext.RouteData.Values["id"]';
+    </script>
+    <script src="~/Scripts/app/Roster.js"></script>
+}
+
+@section styles {
+    <link href="~/Content/toastr.min.css" rel="stylesheet" />
+}

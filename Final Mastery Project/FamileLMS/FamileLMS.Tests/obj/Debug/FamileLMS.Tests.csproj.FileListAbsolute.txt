@@ -1,0 +1,15 @@
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Tests.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Tests.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\obj\Debug\FamileLMS.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\obj\Debug\FamileLMS.Tests.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\obj\Debug\FamileLMS.Tests.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Tests.dll.config
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Data.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Models.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\Dapper.dll
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Data.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\FamileLMS.Models.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\Dapper.pdb
+C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Tests\bin\Debug\Dapper.xml

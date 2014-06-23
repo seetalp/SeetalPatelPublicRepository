@@ -1,0 +1,34 @@
+﻿@model List<FamileLMS.Models.Views.ParentDashboard>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Parent Dashboard</h2>
+<br />
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="list-inline">
+            <li>@Html.ActionLink("Home", "Index", "Home", new { id = ViewContext.RouteData.Values["id"] }, null)</li>
+            <li>@Html.ActionLink("Dashboard", "Index", "Parent", new { id = ViewContext.RouteData.Values["id"] }, null)</li>
+            <li>@Html.ActionLink("Account", "Manage", "Account", new { id = ViewContext.RouteData.Values["id"] }, null)</li>
+        </ul>
+    </div>
+</div>
+<br />
+<h3>My Students</h3>
+<table class="table table-striped">
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName @item.LastName</td>
+                <td>
+                    @using (Html.BeginForm("ChildClasses", "Parent", FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.Hidden("UserID", item.UserID);
+                        <input type="submit" value="View Classes" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

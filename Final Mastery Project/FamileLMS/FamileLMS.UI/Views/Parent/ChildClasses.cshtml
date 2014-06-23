@@ -1,0 +1,27 @@
+﻿@model List<FamileLMS.Models.Views.StudentDashboard>
+
+@{
+    ViewBag.Title = "ChildClasses";
+}
+
+<h2>Your child's classes:</h2>
+
+<table class="table table-bordered">
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ClassName</td>
+                <td>@item.LetterGrade</td>
+                <td>
+                    @using (Html.BeginForm("Grades", "Parent", FormMethod.Post, new { role = "form" }))
+                    {
+                        @Html.Hidden("ClassID", item.ClassID);
+                        @Html.Hidden("ChildID", item.UserID);
+                        <input type="submit" value="View Grades" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
