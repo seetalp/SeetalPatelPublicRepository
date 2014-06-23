@@ -1,0 +1,26 @@
+﻿@model HRMetrics.Models.TurnoverResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TotalTurnoverResult</title>
+</head>
+<body>
+    <div>
+        <h3>Total Turnover Summary</h3>
+        <p>Starting Headcount: @Model.StartHeadcount</p>
+        <p>Ending Headcount: @Model.EndHeadcount</p>
+        <p>Average Headcount: @Model.AverageHeadcount </p>
+
+        <p>Total Terminations: @Model.TotalTerminations</p>
+        <p>Total Turnover Rate: @Model.TotalTurnover</p>
+       
+    </div>
+</body>
+</html>

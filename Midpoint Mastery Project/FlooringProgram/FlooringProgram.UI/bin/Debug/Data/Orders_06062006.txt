@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Seetal,OH,0.001,Wood,100,5.15,4.75,515.00,475.00,99.0000,1089.0000

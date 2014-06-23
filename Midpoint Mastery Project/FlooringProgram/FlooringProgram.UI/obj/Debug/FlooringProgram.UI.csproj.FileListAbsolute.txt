@@ -1,0 +1,16 @@
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.UI.exe.config
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\obj\Debug\FlooringProgram.UI.exe
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\obj\Debug\FlooringProgram.UI.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\Data\Products.txt
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\Data\TaxRates.txt
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.UI.exe
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.UI.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringPogram.Data.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.Models.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.Operations.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\Ninject.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringPogram.Data.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.Models.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\FlooringProgram.Operations.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\bin\Debug\Ninject.xml
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.UI\obj\Debug\FlooringProgram.UI.csprojResolveAssemblyReference.cache

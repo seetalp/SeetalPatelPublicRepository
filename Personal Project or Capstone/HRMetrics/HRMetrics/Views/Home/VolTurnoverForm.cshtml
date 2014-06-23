@@ -1,0 +1,28 @@
+﻿@model HRMetrics.Models.TurnoverRequest
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VolTurnoverForm</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>First, determine the time period for which you want to measure turnover. Next, find the starting and ending headcounts as well as all VOLUNTARY-only terminations that occurred within the time period.</p>
+            <p>Starting Headcount: @Html.EditorFor(m => m.StartHeadcount)</p>
+            <p>Ending Headcount: @Html.EditorFor(m => m.EndHeadcount)</p>
+            <p>Total Voluntary Terminations: @Html.EditorFor(m => m.VoluntaryTerminations)</p>
+
+            <input type="Submit" value="Calculate" />
+
+        } 
+    </div>
+</body>
+</html>

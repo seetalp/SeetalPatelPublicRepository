@@ -1,0 +1,33 @@
+﻿@model HRMetrics.Models.RetentionRequest
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>OneYrRetentionForm</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+{
+    <p>To find out a one year retention rate, divide the total number of employees who have been at the firm for at least one year over the total number of employees.</p>
+    <p>1 Year Tenure Headcount:: @Html.EditorFor(m => m.OneYearTenureHeadcount)</p>
+    <p>Total Headcount:: @Html.EditorFor(m => m.TotalHeadcount)</p>
+            
+                            
+    
+
+    <input type="Submit" value="Calculate" />
+
+}
+        
+         
+    </div>
+</body>
+</html>

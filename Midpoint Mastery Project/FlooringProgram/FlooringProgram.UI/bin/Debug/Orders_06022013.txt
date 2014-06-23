@@ -1,0 +1,4 @@
+﻿OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Johnson,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88
+2,Patel,PA,6.75,Wood,100.00,5.15,4.75,515.00,475.00,66.83,1056.83
+3,Peterson,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88

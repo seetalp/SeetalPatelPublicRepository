@@ -1,0 +1,7 @@
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\bin\Release\AppLabs.BLL.dll
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\bin\Release\AppLabs.BLL.pdb
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\bin\Release\AppLabs.DTOs.dll
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\bin\Release\AppLabs.DTOs.pdb
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.dll
+C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.pdb

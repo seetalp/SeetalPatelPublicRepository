@@ -1,0 +1,21 @@
+﻿@model AppLabs.DTOs.Level2.FibonacciListerResponse
+
+@{
+    ViewBag.Title = "FibonacciOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Fibonacci Sequence</h2>
+
+<div class="row">
+    <div class="col-sm-6">
+        <table class="table table-bordered">
+            <tr>
+                @foreach (var item in Model.fibonacciList)
+                {
+                    <td>@item</td>
+                }
+            </tr>
+        </table>
+    </div>
+</div>

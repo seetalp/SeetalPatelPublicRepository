@@ -1,0 +1,110 @@
+﻿@model DVDLibrary.Web.Models.EditDVDRequest
+
+@{
+    ViewBag.Title = "Edit";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <table class="table-responsive">
+            <tr>
+                <td class="table-condensed">
+                    <h2>Edit Movie</h2>
+                </td>
+
+                <td>
+                
+                    @using (Html.BeginForm("Delete", "DVD", new { id = Model.Id }, FormMethod.Post))
+                    {
+                        @Html.Hidden("ID", Model.Id)
+                        <input id="deleteBtn" type="submit" value="Delete" class="btn btn-danger"/>
+                        
+
+                    }
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(m => m.Id)
+            <div class="form-group">
+                @Html.LabelFor(model => model.Title, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Title)
+                    @Html.ValidationMessageFor(model => model.Title)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Rating, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.Rating, new[]
+        {
+            new SelectListItem(){Text="G", Value = "G"},
+            new SelectListItem(){Text="PG", Value = "PG"},
+            new SelectListItem(){Text="PG-13", Value = "PG-13"},
+            new SelectListItem(){Text="NC-17", Value = "NC-17"},
+            new SelectListItem(){Text="R", Value = "R"},
+            new SelectListItem(){Text="X", Value = "X"},
+        })
+                    @Html.ValidationMessageFor(model => model.Rating)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Year, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Year)
+                    @Html.ValidationMessageFor(model => model.Year)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Runtime, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Runtime) <p> minutes</p>
+                    @Html.ValidationMessageFor(model => model.Runtime)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Director, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Director)
+                    @Html.ValidationMessageFor(model => model.Director)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Star, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.Star)
+                    @Html.ValidationMessageFor(model => model.Star)
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            $("#deleteBtn").click(function (e) {
+                if (!confirm('Are you sure you want to delete?'))
+                    e.preventDefault();
+            });
+        });
+    </script>
+}

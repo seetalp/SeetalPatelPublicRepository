@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h2>Basic Workforce Metrics</h2>
+        <img src="http://www.eduventures.com/wp-content/uploads/2013/03/workforce.png" />
+        <h4>The following metrics are often used in Human Resources to measure workforce health. When using the HR metrics calculator, please exlcude temporary and or seasonal employees from headcounts.</h4>
+
+        <h3>Turnover</h3>
+        <p>Turnover is calculated by dividing the total number of terminations over the average headcount. </p>
+        <ul>
+            <li>@Html.ActionLink("Calculate Total Turnover", "TotalTurnoverForm")</li>
+            <li>@Html.ActionLink("Calculate Voluntary Turnover", "VolTurnoverForm")</li>
+            <li>@Html.ActionLink("Calculate Regrettable Turnover", "RegretTurnoverForm")</li>
+        </ul>
+
+
+        <h3>Retention</h3>
+        <p>Retention measures the percentage of employees that have been retained at the company for a specifc period of time. </p>
+        <ul>
+            <li>@Html.ActionLink("Calculate 1-year Retention", "OneYrRetentionForm")</li>
+            <li>@Html.ActionLink("Calculate 3-year Retention", "ThreeYrRetentionForm")</li>
+            <li>@Html.ActionLink("Calculate 5-year Retention", "FiveYrRetentionForm")</li>
+        </ul>
+
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,David,OH,0.0625,Tile,541,3.50,4.15,1893.50,2245.15,258.665625,4397.315625

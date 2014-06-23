@@ -1,0 +1,23 @@
+﻿@model AppLabs.DTOs.Level2.PalindromFinderResponse
+
+@{
+    ViewBag.Title = "PalindromeOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Palindrome Summary</h2>
+<div class="row">
+    <div class="col-sm-12">
+       
+            @if (Model.IsPalindrome == true)
+            {
+                <p>@Model.Word is a palindrome!</p>
+            }
+            else
+            {
+                <p>@Model.Word is not a palindrome!</p>
+            }
+          
+    </div>
+</div>
+

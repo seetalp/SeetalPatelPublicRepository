@@ -1,0 +1,27 @@
+﻿@model AppLabs.UI.Models.StringReverserModel
+
+@{
+    ViewBag.Title = "StringReverserInput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Reverse a Word</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>Enter a word to reverse:</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+        @using (Html.BeginForm("StringReverserInput", "Simple", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.ValidationSummary()
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.String, new { @class = "form-control", placeholder = "Enter a word" })
+            </div>
+            
+            <button type="submit" class="btn btn-default btn-lg btn-block">Reverse</button>
+        }
+    </div>
+</div>

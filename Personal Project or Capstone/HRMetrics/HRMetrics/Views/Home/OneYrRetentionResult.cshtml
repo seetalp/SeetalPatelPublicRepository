@@ -1,0 +1,22 @@
+﻿@model HRMetrics.Models.RetentionResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>OneYrRetentionResult</title>
+</head>
+<body>
+    <div>
+        <h3>Retention Summary</h3>
+        <p>1 Year Tenure Headcount: @Model.OneYearTenureHeadcount</p>
+        <p>Total Headcount: @Model.TotalHeadcount</p>
+        <p>Retention Rate: @Model.RetentionPercentage.ToString("P") </p>
+    </div>
+</body>
+</html>

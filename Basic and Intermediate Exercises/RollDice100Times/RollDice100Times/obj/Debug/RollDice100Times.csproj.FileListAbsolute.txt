@@ -1,0 +1,12 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.exe.config
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.exe
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.exe
+c:\users\apprentice\documents\visual studio 2013\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.pdb
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.exe.config
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.exe
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.pdb
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.exe
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\bin\Debug\RollDice100Times.pdb
+C:\Users\apprentice\Desktop\GitHub\Projects\RollDice100Times\RollDice100Times\obj\Debug\RollDice100Times.csprojResolveAssemblyReference.cache

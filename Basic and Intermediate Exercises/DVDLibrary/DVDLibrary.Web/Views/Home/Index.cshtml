@@ -1,0 +1,86 @@
+﻿
+@model DVDLibrary.Web.Models.SearchDVDRequest
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>DVD Collection</h2>
+
+<h3>@Html.ActionLink("Add a DVD", "Add", "DVD")</h3>
+
+
+<div class="row">
+    <h4><b>Search</b></h4>
+ 
+    <div class= "col-sm-12" >
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { role = "form", @class = "form-inline" }))
+        {
+            <table>
+                <tr>
+                    <td class ="table-bordered col">
+                        <div class="form-group">
+                            <label>Title</label>
+                            @Html.TextBoxFor(m => m.SearchTitle)
+                        </div>
+
+                        <div class="form-group">
+                            <label>Director</label>
+                            @Html.TextBoxFor(m => m.SearchDirector)
+                        </div>
+
+                        <div class="form-group">
+                            <label>Actor</label>
+                            @Html.TextBoxFor(m => m.SearchActor)
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Search</button>
+                        @Html.ValidationSummary(true)
+
+                    </td>
+                </tr>
+
+            </table>
+        }
+    </div>
+</div>
+
+
+
+@if (Model.SearchResults !=null)
+{
+    <div class="row topMargin">
+        <div class="col-sm-12">
+            
+            @if(Model.SearchResults.Any())
+            { 
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Director</th>
+                        <th>Year</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var dvd in Model.SearchResults)
+                    {
+                        <tr>
+                            <td>@dvd.Title</td>
+                            <td>@dvd.Director</td>
+                            <td>@dvd.Year</td>
+                            <td>@Html.ActionLink("Edit", "Edit", "DVD", new { id = dvd.Id }, null) |@Html.ActionLink("Details", "Details", "DVD", new { id = dvd.Id }, null)  </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            }
+            else
+            {
+            <h4>You do not have any DVDs in your collection!</h4> 
+            }
+        </div>
+    </div>
+
+}

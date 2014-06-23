@@ -1,0 +1,31 @@
+﻿body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.table-bordered {
+    border-color: black;
+    border-spacing: 50px;
+    padding: 30px;
+height: 30px;
+
+}
+
+thead {
+    border-color: black;
+    background-color: gainsboro;
+}
+
+hr {
+   
+    color: white;
+}
+
+
+.table-condensed {
+        border-color: white;
+        padding: 30px;
+        height: 30px;
+}

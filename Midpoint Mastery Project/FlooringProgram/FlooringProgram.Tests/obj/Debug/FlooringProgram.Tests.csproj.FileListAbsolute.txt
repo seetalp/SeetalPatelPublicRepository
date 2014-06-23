@@ -1,0 +1,13 @@
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Tests.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Tests.pdb
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringPogram.Data.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Models.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Operations.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\nunit.framework.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringPogram.Data.pdb
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Models.pdb
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\FlooringProgram.Operations.pdb
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\bin\Debug\nunit.framework.xml
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\obj\Debug\FlooringProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\obj\Debug\FlooringProgram.Tests.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Tests\obj\Debug\FlooringProgram.Tests.pdb

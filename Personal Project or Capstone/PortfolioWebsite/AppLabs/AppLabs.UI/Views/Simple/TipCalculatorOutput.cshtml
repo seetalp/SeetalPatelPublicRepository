@@ -1,0 +1,16 @@
+﻿@model AppLabs.DTOs.Level1.TipCalculatorResponse
+
+@{
+    ViewBag.Title = "TipCalculatorOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tip Calculator Results</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>
+            With a Meal Total of <b>@Model.MealTotal.ToString("C")</b> and Tip Percent of <b>@Model.TipPercent</b>, your Tip Amount would be <b>@Model.TipAmount.ToString("C")</b> resulting in a Total Amount of <b>@Model.TotalAmount.ToString("C")</b>
+        </p>
+    </div>
+</div>

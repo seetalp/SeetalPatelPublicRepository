@@ -1,0 +1,26 @@
+﻿@model AppLabs.UI.Models.FibonacciModel
+
+@{
+    ViewBag.Title = "FibonacciInput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Fibonacci Sequence</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>The Fibonacci Sequence is an example of a recursive sequence, it calculates the next term by adding the preceding two terms. To see how it works, enter the number of terms to print (less than or equal to 20):</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+        @using (Html.BeginForm("FibonacciInput", "Simple", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.ValidationSummary()
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.givenNumber, new { @class = "form-control", placeholder = "Enter a non-negative number" })
+            </div>
+            <button type="submit" class="btn btn-default btn-lg btn-block">Calculate</button>
+        }
+    </div>
+</div>

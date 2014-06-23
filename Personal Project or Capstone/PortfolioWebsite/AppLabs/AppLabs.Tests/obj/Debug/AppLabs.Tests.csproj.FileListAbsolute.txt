@@ -1,0 +1,11 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.Tests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.Tests.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.BLL.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.DTOs.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\nunit.framework.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.BLL.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.DTOs.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\bin\Debug\nunit.framework.xml
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.dll
+c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.pdb

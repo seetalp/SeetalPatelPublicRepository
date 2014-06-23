@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="row" id="toprow">
+        <div class="col-md-2">
+           <img src="../../Images/SPlogo.png" alt="" />
+        </div>
+        <div class="col-md-10">
+            <h2>Seetal Patel</h2>
+            <h3>C#/.NET Developer Portfolio</h3>
+            <p class="lead">This site provides examples of my programming work using C#, ASP.NET MVC 5, HTML, CSS and JavaScript.</p>
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h3>Basic Exercises in C#</h3>
+        <p>Simple applications using ASP.NET/C# and the NUnit framework</p>
+        <p><button id="button1" type="button" class="btn btn-default"><b>@Html.ActionLink("More", "Index", "Simple")</b></button></p> 
+    </div>
+    <div class="col-md-4">
+        <h3>Intermediate Exercises in C#</h3>
+        <p>Coming soon!</p>
+        <p><button id="button1" type="button" class="btn btn-default"><b>@Html.ActionLink("More", "Index", "Moderate")</b></button></p>
+    </div>
+    <div class="col-md-4">
+        <h3>Full Applications</h3>
+        <p>Coming soon!</p>
+        <p><button id="button1" type="button" class="btn btn-default"><b>@Html.ActionLink("More", "Index", "Home")</b></button></p>
+    </div>
+</div>

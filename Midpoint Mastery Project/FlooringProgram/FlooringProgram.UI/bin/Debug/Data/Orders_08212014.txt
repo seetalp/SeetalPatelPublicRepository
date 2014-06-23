@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,David,PA,0.0675,Tile,123,3.50,4.15,430.50,510.45,63.514125,1004.464125

@@ -1,0 +1,10 @@
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.pdb
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.csprojResolveAssemblyReference.cache
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.dll
+C:\Github\DavidJohnson\Projects\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.Models\bin\Debug\FlooringProgram.Models.pdb
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.dll
+C:\Users\apprentice\Desktop\FlooringProgram\FlooringProgram.Models\obj\Debug\FlooringProgram.Models.pdb

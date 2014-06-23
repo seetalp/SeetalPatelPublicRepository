@@ -1,0 +1,21 @@
+﻿@model AppLabs.DTOs.Level2.ChangeReturnResponse
+
+@{
+    ViewBag.Title = "ChangeReturnOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Change in Coins</h2>
+
+<div class="row">
+    <div class="col-sm-4">
+        <table class="table table-bordered">
+            
+            <tr> <td>Quarters: @Model.Quarters</td></tr>
+            <tr> <td>Dimes: @Model.Dimes</td></tr>
+            <tr> <td>Nickels: @Model.Nickels</td>  </tr>
+            <tr> <td>Pennies: @Model.Pennies</td>  </tr>
+            
+        </table>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@model AppLabs.DTOs.Level1.LeapYearResponse
+
+@{
+    ViewBag.Title = "LeapYearOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Leap Year Results</h2>
+
+<div class="row">
+    <div class="col-sm-2">
+        <table class="table table-bordered">
+            @foreach (var item in Model.LeapYearlist)
+            {
+                <tr> <td>@item</td>  </tr>
+            }
+        </table>
+    </div>
+</div>

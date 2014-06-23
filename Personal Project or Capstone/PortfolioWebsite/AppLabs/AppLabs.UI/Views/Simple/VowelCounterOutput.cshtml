@@ -1,0 +1,16 @@
+﻿@model AppLabs.DTOs.Level2.VowelCounterResponse
+
+@{
+    ViewBag.Title = "VowelCounterOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Vowel Counter Summary</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>
+            Number of Vowels in  <b>@Model.Word</b> : <b>@Model.VowelCount</b>
+        </p>
+    </div>
+</div>

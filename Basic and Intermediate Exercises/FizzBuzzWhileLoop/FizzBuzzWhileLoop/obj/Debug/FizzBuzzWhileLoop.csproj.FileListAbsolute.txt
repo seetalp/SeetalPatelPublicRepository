@@ -1,0 +1,6 @@
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\bin\Debug\FizzBuzzWhileLoop.exe.config
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\bin\Debug\FizzBuzzWhileLoop.exe
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\bin\Debug\FizzBuzzWhileLoop.pdb
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\obj\Debug\FizzBuzzWhileLoop.csprojResolveAssemblyReference.cache
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\obj\Debug\FizzBuzzWhileLoop.exe
+c:\users\apprentice\documents\visual studio 2013\Projects\FizzBuzzWhileLoop\FizzBuzzWhileLoop\obj\Debug\FizzBuzzWhileLoop.pdb

@@ -1,0 +1,16 @@
+﻿@model AppLabs.DTOs.Level1.FloorCalculatorResponse
+
+@{
+    ViewBag.Title = "FloorCalculatorOutput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Floor Calculator Results</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>
+            Based on your dimensions Length: <b>@Model.Length</b> X Width: <b>@Model.Width</b> and Unit Cost: <b>@Model.UnitCost</b>, the cost estimate for your floor will be <b>@Model.TotalCost.ToString("C")</b> 
+        </p>
+    </div>
+</div>

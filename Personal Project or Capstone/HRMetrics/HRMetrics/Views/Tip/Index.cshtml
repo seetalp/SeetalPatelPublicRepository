@@ -1,0 +1,38 @@
+﻿@model HRMetrics.Models.TipCaculator
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using(Html.BeginForm())
+        {
+        <p>
+            <label>Meal total: </label>
+            @Html.TextBoxFor(m => m.MealTotal)            
+        </p>
+            <p>
+                <label>Tip percent: </label>
+                @Html.TextBoxFor(m => m.TipPercent)
+            </p>
+            <button>Submit</button>
+        }
+
+    </div>
+    @if (Model.Tip.HasValue && Model.TotalCost.HasValue)
+    {
+        <div>
+            <h2>Result</h2>
+            <p>You should tip: @Model.Tip.Value.ToString("C") for a total meal cost of @Model.TotalCost.Value.ToString("C")</p>
+        </div>
+    }
+</body>
+</html>

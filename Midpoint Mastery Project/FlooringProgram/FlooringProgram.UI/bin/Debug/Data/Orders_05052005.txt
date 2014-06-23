@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+2,David,IN,0.06,Tile,100,3.50,4.15,350.00,415.00,45.9000,810.9000
+4,Seetal,MI,0.0575,Wood,100,5.15,4.75,515.00,475.00,56.925000,1046.925000
+5,Seetal,IN,0.0006,Carpet,100,2.25,2.10,225.00,210.00,26.1000,461.1000

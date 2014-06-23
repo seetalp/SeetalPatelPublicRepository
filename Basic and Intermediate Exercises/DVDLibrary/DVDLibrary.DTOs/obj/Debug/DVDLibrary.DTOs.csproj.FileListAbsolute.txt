@@ -1,0 +1,5 @@
+C:\Users\apprentice\Documents\Visual Studio 2013\Projects\DVDLibrary\DVDLibrary.DTOs\bin\Debug\DVDLibrary.DTOs.dll
+C:\Users\apprentice\Documents\Visual Studio 2013\Projects\DVDLibrary\DVDLibrary.DTOs\bin\Debug\DVDLibrary.DTOs.pdb
+C:\Users\apprentice\Documents\Visual Studio 2013\Projects\DVDLibrary\DVDLibrary.DTOs\obj\Debug\DVDLibrary.DTOs.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Documents\Visual Studio 2013\Projects\DVDLibrary\DVDLibrary.DTOs\obj\Debug\DVDLibrary.DTOs.dll
+C:\Users\apprentice\Documents\Visual Studio 2013\Projects\DVDLibrary\DVDLibrary.DTOs\obj\Debug\DVDLibrary.DTOs.pdb
