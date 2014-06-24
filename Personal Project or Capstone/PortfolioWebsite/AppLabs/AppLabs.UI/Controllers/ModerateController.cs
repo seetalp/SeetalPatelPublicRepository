@@ -4,7 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using AppLabs.BLL.Level3;
+using AppLabs.BLL.Level4;
+using AppLabs.BLL.Level5;
 using AppLabs.DTOs.Level3;
+using AppLabs.DTOs.Level4;
+using AppLabs.DTOs.Level5;
 using AppLabs.UI.Models;
 
 namespace AppLabs.UI.Controllers
@@ -77,6 +81,91 @@ namespace AppLabs.UI.Controllers
                 return View(request);
             }
         }
+
+
+
+        public ActionResult RomanNumeralInput()
+        {
+            var model = new RomanNumeralModel();
+            return View(model);
+
+        }
+
+        [HttpPost]
+        public ActionResult RomanNumeralInput(RomanNumeralModel request)
+        {
+            if (ModelState.IsValid)
+            {
+                var romanConverter = new RomanNumeralConverter();
+                var romanData = new RomanNumeralRequest();
+                romanData.UserNumber = request.UserNumber;
+                
+                var result = romanConverter.ConvertNumber(romanData);
+                return View("RomanNumeralOutput", result);
+
+            }
+            else
+            {
+                return View(request);
+            }
+        }
+
+
+
+        public ActionResult MorseCodeInput()
+        {
+            var model = new MorseCodeModel();
+            return View(model);
+
+        }
+
+        [HttpPost]
+        public ActionResult MorseCodeInput(MorseCodeModel request)
+        {
+            if (ModelState.IsValid)
+            {
+                var morseConverter = new MorseCodeConverter();
+                var morseData = new MorseCodeRequest();
+                morseData.UserInput = request.UserInput;
+
+                var result = morseConverter.ConvertToMorse(morseData);
+                return View("MorseCodeOutput", result);
+
+            }
+            else
+            {
+                return View(request);
+            }
+        }
+
+
+
+        public ActionResult CipherInput()
+        {
+            var model = new CipherModel();
+            return View(model);
+
+        }
+
+        [HttpPost]
+        public ActionResult CipherInput(CipherModel request)
+        {
+            if (ModelState.IsValid)
+            {
+                var cipherConverter = new CipherConverter();
+                var cipherData = new CipherRequest();
+                cipherData.UserInput = request.UserInput;
+
+                var result = cipherConverter.EncryptWord(cipherData);
+                return View("CipherOutput", result);
+
+            }
+            else
+            {
+                return View(request);
+            }
+        }
+
 
 	}
 }

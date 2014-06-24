@@ -43,10 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangeReturnTestRunner.cs" />
+    <Compile Include="CipherTestRunner.cs" />
     <Compile Include="CommonDenominatorTest.cs" />
     <Compile Include="FibonacciTestRunner.cs" />
     <Compile Include="FloorCalculatorTestRunner.cs" />
     <Compile Include="LeapYearCalculatorTestRunner.cs" />
+    <Compile Include="MorseCodeTest.cs" />
     <Compile Include="PalindromeFinderTestRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringReverseTestRunner.cs" />

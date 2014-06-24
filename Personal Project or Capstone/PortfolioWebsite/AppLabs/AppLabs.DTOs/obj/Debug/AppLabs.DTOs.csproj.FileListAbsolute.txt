@@ -3,3 +3,7 @@ c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\b
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.csprojResolveAssemblyReference.cache
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.dll
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Debug\AppLabs.DTOs.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Debug\AppLabs.DTOs.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.pdb

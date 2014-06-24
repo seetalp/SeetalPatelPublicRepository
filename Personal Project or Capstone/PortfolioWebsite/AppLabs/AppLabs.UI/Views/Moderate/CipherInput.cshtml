@@ -1,0 +1,27 @@
+﻿@model AppLabs.UI.Models.CipherModel
+
+@{
+    ViewBag.Title = "CipherInput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Encrypt Words Using Cipher</h2>
+
+<div class="row">
+    <div class="col-sm-12">
+        <p>Enter a word or sentence to encrypt using the Caesar's Cipher technique: </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+        @using (Html.BeginForm("CipherInput", "Moderate", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.ValidationSummary()
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.UserInput, new { @class = "form-control", placeholder = "Enter a word or sentence" })
+            </div>
+
+            <button type="submit" class="btn btn-default btn-lg btn-block">Encrypt</button>
+        }
+    </div>
+</div>

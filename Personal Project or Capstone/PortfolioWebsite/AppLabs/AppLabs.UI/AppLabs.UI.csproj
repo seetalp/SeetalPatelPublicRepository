@@ -190,12 +190,15 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ChangeReturnModel.cs" />
+    <Compile Include="Models\CipherModel.cs" />
     <Compile Include="Models\CommonDenominatorModel.cs" />
     <Compile Include="Models\FibonacciModel.cs" />
     <Compile Include="Models\FloorCalculatorModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\LeapYearCalculatorModel.cs" />
+    <Compile Include="Models\MorseCodeModel.cs" />
     <Compile Include="Models\PalidromeFinderModel.cs" />
+    <Compile Include="Models\RomanNumeralModel.cs" />
     <Compile Include="Models\StringReverserModel.cs" />
     <Compile Include="Models\TipCalculatorModel.cs" />
     <Compile Include="Models\VowelCounterModel.cs" />
@@ -283,6 +286,12 @@
     <Content Include="Views\Moderate\WordCounterOutput.cshtml" />
     <Content Include="Views\Moderate\CommonDenominatorInput.cshtml" />
     <Content Include="Views\Moderate\CommonDenominatorOutput.cshtml" />
+    <Content Include="Views\Moderate\RomanNumeralInput.cshtml" />
+    <Content Include="Views\Moderate\RomanNumeralOutput.cshtml" />
+    <Content Include="Views\Moderate\MorseCodeInput.cshtml" />
+    <Content Include="Views\Moderate\MorseCodeOutput.cshtml" />
+    <Content Include="Views\Moderate\CipherInput.cshtml" />
+    <Content Include="Views\Moderate\CipherOutput.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

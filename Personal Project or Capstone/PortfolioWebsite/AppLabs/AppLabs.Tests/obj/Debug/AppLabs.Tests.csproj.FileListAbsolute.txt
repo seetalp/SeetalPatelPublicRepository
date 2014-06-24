@@ -9,3 +9,14 @@ c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.csprojResolveAssemblyReference.cache
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.dll
 c:\users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.Tests.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.Tests.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.BLL.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.DTOs.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\nunit.framework.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.BLL.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\AppLabs.DTOs.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\bin\Debug\nunit.framework.xml
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.Tests\obj\Debug\AppLabs.Tests.pdb

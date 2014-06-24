@@ -3,3 +3,8 @@ C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\b
 C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.csprojResolveAssemblyReference.cache
 C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.dll
 C:\Users\apprentice\documents\visual studio 2013\Projects\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Release\AppLabs.DTOs.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Release\AppLabs.DTOs.pdb
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.csprojResolveAssemblyReference.cache
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.dll
+C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Release\AppLabs.DTOs.pdb

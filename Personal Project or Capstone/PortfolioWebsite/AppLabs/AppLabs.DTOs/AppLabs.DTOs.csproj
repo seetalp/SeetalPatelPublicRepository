@@ -61,13 +61,15 @@
     <Compile Include="Level3\CommonDenominatorResponse.cs" />
     <Compile Include="Level3\WordCounterRequest.cs" />
     <Compile Include="Level3\WordCounterResponse.cs" />
+    <Compile Include="Level4\MorseCodeRequest.cs" />
+    <Compile Include="Level4\MorseCodeResponse.cs" />
+    <Compile Include="Level4\RomanNumeralRequest.cs" />
+    <Compile Include="Level4\RomanNumeralResponse.cs" />
+    <Compile Include="Level5\CipherRequest.cs" />
+    <Compile Include="Level5\CipherResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Level4\" />
-    <Folder Include="Level5\" />
-    <Folder Include="Level6\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

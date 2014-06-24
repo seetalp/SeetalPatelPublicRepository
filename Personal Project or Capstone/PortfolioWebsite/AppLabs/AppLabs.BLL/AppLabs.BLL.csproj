@@ -50,13 +50,12 @@
     <Compile Include="Level3\AlarmClockTimer.cs" />
     <Compile Include="Level3\CommonDenominatorFinder.cs" />
     <Compile Include="Level3\WordCounter.cs" />
+    <Compile Include="Level4\MorseCodeConverter.cs" />
+    <Compile Include="Level4\RomanNumeralConverter.cs" />
+    <Compile Include="Level5\CipherConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Level4\" />
-    <Folder Include="Level5\" />
-    <Folder Include="Level6\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\AppLabs.DTOs\AppLabs.DTOs.csproj">
       <Project>{011306bf-b1b1-4320-96f7-adeee82a552b}</Project>
