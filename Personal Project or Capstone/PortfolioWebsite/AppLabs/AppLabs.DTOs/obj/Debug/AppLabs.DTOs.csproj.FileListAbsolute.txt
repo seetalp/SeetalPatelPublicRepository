@@ -7,3 +7,8 @@ C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Caps
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Debug\AppLabs.DTOs.pdb
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.dll
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Debug\AppLabs.DTOs.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\bin\Debug\AppLabs.DTOs.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.csprojResolveAssemblyReference.cache
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.DTOs\obj\Debug\AppLabs.DTOs.pdb

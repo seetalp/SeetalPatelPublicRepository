@@ -220,6 +220,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <None Include="Properties\PublishProfiles\seetalpatelportfolio %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\seetalpatelportfolio.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\295356_10102226903509330_558575197_n.jpg" />

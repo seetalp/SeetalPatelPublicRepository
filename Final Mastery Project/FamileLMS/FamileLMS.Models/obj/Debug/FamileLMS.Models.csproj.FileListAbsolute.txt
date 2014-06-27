@@ -6,3 +6,11 @@ C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Models\bin\
 C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.csprojResolveAssemblyReference.cache
 C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.dll
 C:\Users\apprentice\Desktop\SWCLMSMasteryProject\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\bin\Debug\FamileLMS.Models.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\bin\Debug\FamileLMS.Models.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\bin\Debug\Dapper.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\bin\Debug\Dapper.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\bin\Debug\Dapper.xml
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.csprojResolveAssemblyReference.cache
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Final Mastery Project\FamileLMS\FamileLMS.Models\obj\Debug\FamileLMS.Models.pdb

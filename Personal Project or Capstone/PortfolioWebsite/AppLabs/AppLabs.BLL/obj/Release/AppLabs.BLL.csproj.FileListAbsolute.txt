@@ -12,3 +12,10 @@ C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Caps
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.csprojResolveAssemblyReference.cache
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.dll
 C:\Users\apprentice\Desktop\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\bin\Release\AppLabs.BLL.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\bin\Release\AppLabs.BLL.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\bin\Release\AppLabs.DTOs.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\bin\Release\AppLabs.DTOs.pdb
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.dll
+C:\Users\Seetal\Desktop\GitHub\SeetalPatelPublicRepository\Personal Project or Capstone\PortfolioWebsite\AppLabs\AppLabs.BLL\obj\Release\AppLabs.BLL.pdb
